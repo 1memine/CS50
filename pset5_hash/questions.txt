@@ -1,0 +1,36 @@
+0.  What is pneumonoultramicroscopicsilicovolcanoconiosis?
+    A: The longest english word, consists of 45 chars
+
+1.  According to its man page, what does getrusage do?
+    A: gets resource usage
+
+2.  Per that same man page, how many members are in a
+    variable of type struct rusage?
+    A: Sixteen
+
+3.  Why do you think we pass before and after by reference
+    (instead of by value) to calculate, even though we’re
+    not changing their contents?
+    A: Because when we pass by val function make copy of
+       value which is wasting of memory
+
+4.  Explain as precisely as possible, in a paragraph or more,
+    how main goes about reading words from a file. In other
+    words, convince us that you indeed understand how that
+    function’s for loop works.
+    A: for each word, checking orphogragphy,
+
+
+5.  Why do you think we used fgetc to read each word’s
+    characters one at a time rather than use fscanf with a
+    format string like "%s" to read whole words at a time?
+    Put another way, what problems might arise by relying
+    on fscanf alone?
+    A: register problems
+
+6.  Why do you think we declared the parameters for
+    check and load as const?
+    A: because we get access by reference, not by value
+       this way we can't change paremeters by accident
+
+

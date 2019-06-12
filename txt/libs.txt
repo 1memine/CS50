@@ -1,0 +1,52 @@
+	STD FUNCTIONS:
+cs50.h
+	get_int("text that will be printed");
+	getting integer
+
+stdlib.h
+	atoi("15244") string -> integer
+
+	int sprintf(char* buffer, string format)
+		sprintf stores in ptr a string
+		formatted along the lines of format
+		ex: sprintf(s, "14/%d", 88);
+
+ctype.h
+	int isalpha(int c)
+	    returns 1 if c alphabetical
+	    letter
+	isupper, islower
+
+unistd.h
+    int usleep(usec)
+    The  usleep()  function  suspends
+    execution of the calling thread
+    for (at least) usec microseconds
+    returns 0 at succes
+
+stdio.h
+	FILE -- data type for pointers to
+			file
+	ex.: FILE *file_ptr;
+	FILE* fopen(string filename, string mode);
+		modes: r read only
+			   w write, creates file
+			   a (same as "w" but don't
+			      delete data at new start)
+	ex: file = fopen("test.txt", "w");
+
+	fputs(string input, FILE* file);
+		Function used to write string to file;
+
+	string fgets(string, int, FILE*);
+		get THE NEXT string from a file;
+		succses - return string
+		unsuccesful run - return NULL
+		reads not more than int chars from
+		FILE* temporarily storing it in string
+
+
+
+
+
+

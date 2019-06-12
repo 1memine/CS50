@@ -1,0 +1,59 @@
+clang -- compiler for C, C++, objective-C
+-o set output's name
+-l*** link with library
+
+
+ex:	clang hello.c
+	name of compiled file will be a.out
+	clang -o hello hello.c
+	-o -- set name hello for programm compiled from hello.c
+%s - identifier for string
+%f - float
+%.35f - precision up to 35 sign
+
+
+*Command-line arguments
+argc -- number of strings in argv
+argv -- array of strings, array of
+		arguments of command-line
+ex: int main(int argc, string argv[]);
+
+
+./generate 1000 | ./find 42		merge, generate 1000 values
+								and find 42 in them
+
+./generate 1000 > numbers.txt	send data to text document
+./find 42 < numbers.txt			take data from txt
+
+
+echo $? - display output of last programm
+
+
+swap a, b with XOR
+a ^= b ^= a ^= b;
+
+
+typedef -- creates an alias of type
+	ex: typedef int width;
+		width a = 2;
+
+TCP/IP
+ports:
+21: FTP, File Transer Protocol.
+25: SMTP: Simple Mail Transfer Protocol
+53: DNS: Domain Name System
+80: HTTP: Hypertext Transfer Protocol
+443: HTTPS: Secure
+
+
+
+
+
+
+
+
+
+
+
+
+

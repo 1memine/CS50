@@ -1,0 +1,19 @@
+/* Tag selector */
+body {
+    background-color: lightblue;
+}
+
+/* Selector of named block*/
+#my_color {
+    color: purple;
+}
+
+/* Selector of class*/
+.my_font {
+    font-family: "Brush Script MT", cursive;
+    font-size: 25px;
+}
+
+p {
+    color: white;
+}

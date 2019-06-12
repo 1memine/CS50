@@ -1,0 +1,36 @@
+0.  JPEG -- 16kk, GIF -- 256, BMP -- from 1 to 1.84*10^19
+1.  GIF
+2.  Loseless compression allows to restore data without any losses
+3.  JPEG
+4. What happens, technically speaking, when a file is deleted on a FAT file
+system?
+Two things:
+    1. The system modifies the filename's first character to signal that it has
+       been deleted and that the directory entry can be recycled.
+       (Most OSs simply remove the file's reference from the containing dir.)
+    2. The system moves all of the file's FAT clusters to the hard drive's list
+       of free clusters.
+    The file's data is never touched.
+5.  overwrite whole disk with random data or zeroes
+6.  stdint.h is a standart library with int types with specific width (max and min)
+7.  to increase portability of programm and to ensure proper usage, sizeof(int) can vary in different systems
+8.  How many bytes is a BYTE, a DWORD, a LONG, and a WORD, respectively?
+    BYTE - 1
+    DWORD- 4
+    LONG - 4
+    WORD - 2
+9.  0x42 0x4D, ASCII: BM, dec: 6677
+10. bfSize is member of BITMAPFILEHEADER struct, represents size of bmp file in bytes
+    biSize is member of BITMAPINFOHEADER struct, represents size of struct BITMAPINFOHEADER in bytes
+11. What does it mean if biHeight is negative?
+    biHeight -- height in pixels
+    If biHeight is positive, the bitmap is a bottom-up DIB with the point of origin at the lower left corner.
+    If biHeight is negative, the bitmap is a top-down DIB with the origin at the upper left corner.
+
+12. biBitCount
+13. if it can't create output file
+14. because it reads only 1 struct
+15. 3
+16. It moves to a specific location in a file.
+17. SEEK_CUR – means that offset will count from current position
+18. rickrolled!
