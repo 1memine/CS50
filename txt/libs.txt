@@ -44,9 +44,3 @@ stdio.h
 		unsuccesful run - return NULL
 		reads not more than int chars from
 		FILE* temporarily storing it in string
-
-
-
-
-
-
